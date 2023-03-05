@@ -1,0 +1,39 @@
+body {
+	background: #1f2021;
+}
+/* navbar text */
+html {
+	scroll-behavior: smooth;
+	background-color: #1f20;
+}
+
+.navtext {
+	color: white;
+}
+/* landing background */
+.land {
+	background-image: url("../../../public/Assets/image/landing/wallpaper.png");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* text */
+.textind {
+	color: white;
+	font-size: xxx-large;
+	font-family: "Bebas Neue ";
+	line-height: normal;
+}
+.titlename {
+	font-size: xxx-large;
+	color: rgba(255, 255, 255, 0.888);
+	font-family: "Bebas Neue ";
+}
+
+.headingtext {
+	font-size: xx-large;
+	color: rgb(171, 171, 171);
+	font-family: "Aboreto";
+}

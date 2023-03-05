@@ -1,0 +1,12 @@
+body {
+	background: #1f2021;
+}
+/* navbar text */
+html {
+	scroll-behavior: smooth;
+	background-color: #1f20;
+}
+
+.navtext {
+	color: white;
+}

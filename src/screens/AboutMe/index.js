@@ -37,7 +37,7 @@ function AboutMe() {
             </span>
             <p
               className="mt-3 is-hidden-touch "
-              style={{ fontFamily: "monospace" }}
+              style={{ fontFamily: "monospace" , fontSize: "x-large" }}
             >
               My name is Danujaya Sandeepa Liyanage and I am an Information
               Systems undergraduate at University of Colombo School of

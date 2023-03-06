@@ -1,7 +1,7 @@
 import React from "react";
 import "bulma/css/bulma.min.css";
 import "bulma-social/css/all.min.css"
-import "./index.css";
+import "../HomePage/index.css";
 
 import me600 from "../../assets/me600.png";
 
@@ -10,32 +10,32 @@ function AboutMe() {
     <section className="hero is-fullheight-with-navbar mt-6">
       <div className="container">
         <center>
-          <div classname="container mt-4">
+          <div className="container mt-4">
             <h1
-              classname="title is-2 mb-1"
+              className="title is-2 mb-1"
               style={{ color: "white", fontSize: "large" }}
             >
               I'm
             </h1>
-            <h1 classname="title is-2 mt-0" style={{ color: "white" }}>
+            <h1 className="title is-2 mt-0" style={{ color: "white" }}>
               Danujaya Liyanage
             </h1>
           </div>
-          <div classname="column is-one-third">
-            <figure classname="image my-img">
+          <div className="column is-one-third">
+            <figure className="image my-img">
               <img src={me600} />
             </figure>
           </div>
         </center>
-        <div classname="container">
-          <div classname="herotext ml-2">
+        <div className="container">
+          <div className="herotext ml-2">
             <span style={{ fontSize: "large" }}>
               {" "}
               Hi there!
               <br />
             </span>
             <p
-              classname="mt-3 is-hidden-touch"
+              className="mt-3 is-hidden-touch"
               style={{ fontFamily: "monospace" }}
             >
               My name is Danujaya Sandeepa Liyanage and I am an Information
@@ -51,7 +51,7 @@ function AboutMe() {
               a talented Software Engineer. Thank you for visiting my page!
             </p>
             <p
-              classname="mt-3 ml-4 mr-4 is-hidden-desktop"
+              className="mt-3 ml-4 mr-4 is-hidden-desktop"
               style={{ fontFamily: "monospace" }}
             >
               My name is Danujaya Sandeepa Liyanage and I am an Information

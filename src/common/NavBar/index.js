@@ -39,8 +39,8 @@ function NavBar() {
           style={{ backgroundColor: "#363636", border: "none" }}
         >
           
-          <a className="navbar-item navtext" href="/dee">
-            dee
+          <a className="navbar-item navtext" href="/">
+            Home
           </a>
           <a className="navbar-item navtext" href="/AboutMe">
             About me

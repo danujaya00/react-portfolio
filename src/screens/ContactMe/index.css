@@ -63,7 +63,7 @@
 
 
 .bkgf {
-	background-image: url("../../../assets/footer.png");
+	background-image: url("../../assets/footer.png");
 	background-repeat: no-repeat;
 	height: fit-content;
 	background-size: cover;
@@ -223,7 +223,7 @@
 	opacity: 0.65;
 }
 .contactbkg{
-	background-image: url("../../../assets/contactbkg.png");
+	background-image: url("../../assets/contact_im.png");
 	background-size: 25%;
 	background-repeat: no-repeat;
 	background-position-x: right;

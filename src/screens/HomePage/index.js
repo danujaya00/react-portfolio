@@ -2,7 +2,6 @@ import React from "react";
 import "bulma/css/bulma.min.css";
 import "bulma-social/css/all.min.css";
 import "./index.css";
-import AOS from 'aos';
 
 import MaterialIcon, { colorPalette } from "material-icons-react";
 import { FaTwitter } from "react-icons/fa";

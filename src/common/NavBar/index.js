@@ -5,11 +5,16 @@ import "bulma/css/bulma.min.css";
 import "./index.css";
 import logo from "./assets/logo.png"
 
+import HomePage from "../../screens/HomePage";
+import AboutMe from "../../screens/AboutMe";
+import ContactMe from "../../screens/ContactMe";
+import Gallery from "../../screens/Gallery";
+
 function NavBar() {
   return (
     <nav className="navbar is-dark is-fixed-top">
       <div className="navbar-brand ml-4">
-        <a className="navbar-item" href="./index.html">
+        <a className="navbar-item" href="./dee">
           { <img
           src={logo}
             width="100%"
@@ -33,16 +38,17 @@ function NavBar() {
           className="navbar-start"
           style={{ backgroundColor: "#363636", border: "none" }}
         >
-          <a className="navbar-item navtext" href="/index.html">
-            Home
+          
+          <a className="navbar-item navtext" href="/dee">
+            dee
           </a>
-          <a className="navbar-item navtext" href="/about.html">
+          <a className="navbar-item navtext" href="/AboutMe">
             About me
           </a>
-          <a className="navbar-item navtext" href="/contact.html">
+          <a className="navbar-item navtext" href="/ContactMe">
             Contact me
           </a>
-          <a className="navbar-item navtext" href="/gallery.html">
+          <a className="navbar-item navtext" href="/Gallery">
             Gallery
           </a>
           <a className="navbar-item navtext">

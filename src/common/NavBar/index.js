@@ -14,7 +14,7 @@ function NavBar() {
   return (
     <nav className="navbar is-dark is-fixed-top">
       <div className="navbar-brand ml-4">
-        <a className="navbar-item" href="./dee">
+        <a className="navbar-item" href="./">
           { <img
           src={logo}
             width="100%"

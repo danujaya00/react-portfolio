@@ -10,7 +10,6 @@ import line1 from "../../assets/Line1.png";
 import line_left from "../../assets/line_left.png";
 import le_Me from "../../assets/le_Me.png";
 
-
 function HomePage() {
   return (
     <>
@@ -62,6 +61,57 @@ function HomePage() {
           </center>
         </div>
       </section>
+      
+      {/* landing page for mobile devices */}
+
+      {/* <section className="hero is-fullheight-with-navbar is-hidden-mobile land mt-6">
+        <div className="columns mr-6 ml-6 pl-5">
+          <div className="column">
+            <div className="textind mb-0 mt-0">
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <span className="is-hidden-mobile" style={{ fontSize: "4em" }}>
+                HELLO
+              </span>
+              <br />
+              <div className="block ml-4">
+                <span
+                  style={{
+                    fontSize: "xx-large",
+                    color: "rgba(156, 156, 156, 0.829)",
+                    marginBottom: 0,
+                  }}
+                >
+                  I'M <br />
+                </span>
+                <span className="mb-0"> DANUJAYA LIYANAGE </span>
+                <br />
+                <span style={{ fontSize: "x-large", marginTop: 0 }}>
+                  Information Systems Undergraduate.
+                </span>
+              </div>
+            </div>
+          </div>
+          <div className="column" />
+        </div>
+        <div className="hero-foot">
+          <center>
+            <a href="#about">
+              <MaterialIcon
+                icon="keyboard_arrow_down"
+                color="#ffffff"
+                size="large"
+              />
+            </a>
+          </center>
+        </div>
+      </section> */}
 
       <section id="about" data-aos="fade-up" data-aos-duration={900}>
         <div className="columns mt-6 bcol is-hidden-touch">
@@ -106,7 +156,7 @@ function HomePage() {
             </p>
             <div>
               <button className="button is-twitter is-rounded is-outlined mt-6 twitter">
-                < FaTwitter />
+                <FaTwitter />
                 span @danujaya_s
               </button>
             </div>
@@ -178,7 +228,7 @@ function HomePage() {
           </ul>
         </div>
       </section>
-      <section id="about  " className="bkgf">
+      <section id="about  " className="bkgf bkgif">
         <div className="columns mt-6 bcol">
           <div className="column is-align-self-center">
             <img src={line_left} alt="Line" style={{ width: "100%" }} />
@@ -188,10 +238,16 @@ function HomePage() {
               <h1 className="headingtext">CONTACT ME</h1>
             </div>
           </div>
+
           <div className="column is-align-self-center">
             <img src={line1} alt="Line" style={{ width: "100%" }} />
           </div>
         </div>
+        <center>
+          <div className="imgfp">
+            <img src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/media/7ed7d5ca074b48b328150e5a231e8d1f.gif" />
+          </div>
+        </center>
         <div className="mt-5 bcol pb-6">
           <p className="btext ml-5">
             Thank you for visiting my portfolio! <br />
@@ -203,7 +259,7 @@ function HomePage() {
           <div className="level social_set mb-3 is-justify-content-center">
             <a className="button is-medium is-discord is-outlined is-rounded mb-6 mt-6 items is-responsive">
               <span className="icon">
-                <FaEnvelope/>
+                <FaEnvelope />
               </span>
               <span>danujayas00@gmail.com</span>
             </a>

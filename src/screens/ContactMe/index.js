@@ -23,7 +23,7 @@ function AboutMe() {
       </div>
     </div>
     <center>
-    <div className="image">
+    <div className="imagec">
       <img src="https://camo.githubusercontent.com/cae12fddd9d6982901d82580bdf321d81fb299141098ca1c2d4891870827bf17/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313336302f302a37513379765349765f7430696f4a2d5a2e676966"/>
     </div></center>
     <div className="container-fluid contactbkg">
@@ -31,7 +31,7 @@ function AboutMe() {
         <div className="content is-normal">
           <p
             className="herotext is-hidden-touch"
-            style={{ fontFamily: "monospace", fontSize: "x-large" }}
+            style={{ fontFamily: "monospace", fontSize: "larger" }}
           >
             Thank you for visiting my personal portfolio!
             <br />
@@ -52,7 +52,7 @@ function AboutMe() {
             you. Whether you have a potential job or internship opportunity, or
             just want to chat about software engineering, I am here to listen.
             <br />I look forward to connecting with you!
-          </p>
+          </p>  
           <p
             className="herotext is-hidden-desktop pl-4 pr-4"
             style={{ fontFamily: "monospace", fontSize: "large" }}

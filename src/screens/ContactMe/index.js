@@ -7,26 +7,26 @@ import me600 from "../../assets/me600.png";
 
 function AboutMe() {
   return (
-    <section classname="hero is-fullheight-with-navbar mt-6">
-      <div classname="hero-head">
-        <div classname="container mt-4 is-hidden-touch">
-          <h1 classname="title is-2" style={{ color: "white" }}>
+    <section className="hero is-fullheight-with-navbar mt-6">
+      <div className="hero-head">
+        <div className="container mt-4 is-hidden-touch">
+          <h1 className="title is-2" style={{ color: "white" }}>
             CONTACT ME
           </h1>
         </div>
-        <div classname="container mt-4 is-hidden-desktop">
+        <div className="container mt-4 is-hidden-desktop">
           <center>
-            <h1 classname="title is-2" style={{ color: "white" }}>
+            <h1 className="title is-2" style={{ color: "white" }}>
               CONTACT ME
             </h1>
           </center>
         </div>
       </div>
-      <div classname="container-fluid contactbkg">
-        <div classname="container mt-6">
-          <div classname="content is-normal">
+      <div className="container-fluid contactbkg">
+        <div className="container mt-6">
+          <div className="content is-normal">
             <p
-              classname="herotext is-hidden-touch"
+              className="herotext is-hidden-touch"
               style={{ fontFamily: "monospace", fontSize: "large" }}
             >
               Thank you for visiting my personal portfolio!
@@ -51,7 +51,7 @@ function AboutMe() {
               <br />I look forward to connecting with you!
             </p>
             <p
-              classname="herotext is-hidden-desktop pl-4 pr-4"
+              className="herotext is-hidden-desktop pl-4 pr-4"
               style={{ fontFamily: "monospace", fontSize: "large" }}
             >
               Thank you for visiting my personal portfolio!
@@ -78,61 +78,61 @@ function AboutMe() {
             <br />
             <br />
             <br />
-            <div classname="level social_set mb-3 is-justify-content-center">
+            <div className="level social_set mb-3 is-justify-content-center">
               <center>
-                <a classname="button is-medium is-discord is-outlined is-rounded mb-6 mt-6 items is-responsive">
-                  <span classname="icon">
-                    <i classname="fa-solid fa-envelope mr-3 ml-3" />
+                <a className="button is-medium is-discord is-outlined is-rounded mb-6 mt-6 items is-responsive">
+                  <span className="icon">
+                    <i className="fa-solid fa-envelope mr-3 ml-3" />
                   </span>
                   <span>danujayas00@gmail.com</span>
                 </a>
               </center>
             </div>
             <br />
-            <div classname="level social_set is-hidden-mobile">
-              <a classname="button is-small is-linkedin is-outlined is-rounded">
-                <span classname="icon">
-                  <i classname="fab fa-linkedin" />
+            <div className="level social_set is-hidden-mobile">
+              <a className="button is-small is-linkedin is-outlined is-rounded">
+                <span className="icon">
+                  <i className="fab fa-linkedin" />
                 </span>
                 <span style={{ color: "white" }}>LinkedIn</span>
               </a>
-              <a classname="button is-small is-linkedin is-outlined is-rounded">
-                <span classname="icon">
-                  <i classname="fab fa-github" style={{ color: "white" }} />
+              <a className="button is-small is-linkedin is-outlined is-rounded">
+                <span className="icon">
+                  <i className="fab fa-github" style={{ color: "white" }} />
                 </span>
                 <span style={{ color: "white" }}>Github</span>
               </a>
-              <a classname="button is-small is-linkedin is-outlined is-rounded">
-                <span classname="icon">
-                  <i style={{ color: "pink" }} classname="fab fa-instagram" />
+              <a className="button is-small is-linkedin is-outlined is-rounded">
+                <span className="icon">
+                  <i style={{ color: "pink" }} className="fab fa-instagram" />
                 </span>
                 <span style={{ color: "white" }}>Instagram</span>
               </a>
-              <a classname="button is-small is-linkedin is-outlined is-rounded">
-                <span classname="icon">
-                  <i style={{ color: "purple" }} classname="fab fa-slack" />
+              <a className="button is-small is-linkedin is-outlined is-rounded">
+                <span className="icon">
+                  <i style={{ color: "purple" }} className="fab fa-slack" />
                 </span>
                 <span style={{ color: "white" }}>Salck</span>
               </a>
             </div>
-            <div classname="container-fluid level social_set is-hidden-tablet">
+            <div className="container-fluid level social_set is-hidden-tablet">
               <center>
-                <a classname="button is-small is-linkedin is-outlined is-rounded mr-3 mb-3">
-                  <span classname="icon">
-                    <i classname="fab fa-linkedin" />
+                <a className="button is-small is-linkedin is-outlined is-rounded mr-3 mb-3">
+                  <span className="icon">
+                    <i className="fab fa-linkedin" />
                   </span>
                 </a>
                 <a
-                  classname="button is-small is-github is-outlined is-rounded mr-3 mb-3"
+                  className="button is-small is-github is-outlined is-rounded mr-3 mb-3"
                   style={{ borderColor: "white" }}
                 >
-                  <span classname="icon">
-                    <i classname="fab fa-github" style={{ color: "white" }} />
+                  <span className="icon">
+                    <i className="fab fa-github" style={{ color: "white" }} />
                   </span>
                 </a>
-                <a classname="button is-small is-instagram is-outlined is-rounded mr-3 mb-3">
-                  <span classname="icon">
-                    <i classname="fab fa-instagram" />
+                <a className="button is-small is-instagram is-outlined is-rounded mr-3 mb-3">
+                  <span className="icon">
+                    <i className="fab fa-instagram" />
                   </span>
                 </a>
               </center>

@@ -15,7 +15,6 @@ import t6 from "../../assets/travel/t6.png";
 import t7 from "../../assets/travel/t7.png";
 import t8 from "../../assets/travel/t8.png";
 
-
 function Gallery(props) {
   return (
     <div>
@@ -27,7 +26,7 @@ function Gallery(props) {
             </h1>
           </div>
         </div>
-        <div className="hero-head is-hidden-tablet">
+        <div className="hero-head is-hidden-desktop">
           <center>
             <div className="container mt-4">
               <h1 className="title is-2" style={{ color: "white" }}>
@@ -36,43 +35,86 @@ function Gallery(props) {
             </div>
           </center>
         </div>
-
-        <div className="slidercontainer">
-        <Carousel >
-          <div>
-            <img  src={t1} />
-            <p className="legend">Galle Train Station</p>
-          </div>
-          <div>
-            <img src={t2} />
-            <p className="legend">Idalgashinna</p>
-          </div>
-          <div>
-            <img src={t3} />
-            <p className="legend">Ohiya</p>
-          </div>
-          <div>
-            <img src={t4} />
-            <p className="legend">Idalgashinna</p>
-          </div>
-          <div>
-            <img src={t5} />
-            <p className="legend">Idalgashinna</p>
-          </div>
-          <div>
-            <img src={t6} />
-            <p className="legend">Jungle beach</p>
-          </div>
-          <div>
-            <img src={t7} />
-            <p className="legend">Jungle beach</p>
-          </div>
-          <div>
-            <img src={t8} />
-            <p className="legend">Jungle beach</p>
-          </div>
-        </Carousel>
+        <br />
+        {/* carousel start */}
+        {/* desktop */}
+        <div className="slidercontainer is-hidden-touch">
+          <Carousel>
+            <div>
+              <img src={t1} />
+              <p className="legend">Galle Train Station</p>
+            </div>
+            <div>
+              <img src={t2} />
+              <p className="legend">Idalgashinna</p>
+            </div>
+            <div>
+              <img src={t3} />
+              <p className="legend">Ohiya</p>
+            </div>
+            <div>
+              <img src={t4} />
+              <p className="legend">Idalgashinna</p>
+            </div>
+            <div>
+              <img src={t5} />
+              <p className="legend">Idalgashinna</p>
+            </div>
+            <div>
+              <img src={t6} />
+              <p className="legend">Jungle beach</p>
+            </div>
+            <div>
+              <img src={t7} />
+              <p className="legend">Jungle beach</p>
+            </div>
+            <div>
+              <img src={t8} />
+              <p className="legend">Jungle beach</p>
+            </div>
+          </Carousel>
         </div>
+        {/* desktop end */}
+        {/* mobile */}
+        <div className="slidercontainermobile is-hidden-desktop ">
+          <Carousel>
+            <div>
+              <img src={t1} />
+              <p className="legend">Galle Train Station</p>
+            </div>
+            <div>
+              <img src={t2} />
+              <p className="legend">Idalgashinna</p>
+            </div>
+            <div>
+              <img src={t3} />
+              <p className="legend">Ohiya</p>
+            </div>
+            <div>
+              <img src={t4} />
+              <p className="legend">Idalgashinna</p>
+            </div>
+            <div>
+              <img src={t5} />
+              <p className="legend">Idalgashinna</p>
+            </div>
+            <div>
+              <img src={t6} />
+              <p className="legend">Jungle beach</p>
+            </div>
+            <div>
+              <img src={t7} />
+              <p className="legend">Jungle beach</p>
+            </div>
+            <div>
+              <img src={t8} />
+              <p className="legend">Jungle beach</p>
+            </div>
+          </Carousel>
+        </div>
+
+        {/* mobile end  */}
+        {/* carousel end */}
         <div className="container mt-3">
           <div className="herotext ml-2 is-hidden-touch">
             <span style={{ fontSize: "larger" }}>
@@ -103,7 +145,7 @@ function Gallery(props) {
               make your own unforgettable memories. Thank you.
             </p>
           </div>
-          <div className="herotext ml-2 is-hidden-tablet">
+          <div className="herotext ml-2 is-hidden-desktop">
             <span style={{ fontSize: "larger" }}>
               {" "}
               Hi there!

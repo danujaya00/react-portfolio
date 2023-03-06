@@ -24,7 +24,7 @@ function AboutMe() {
           </div>
           <div className="column is-one-third">
             <figure className="image my-img">
-              <img src={me600} />
+              <img  src={me600} />
             </figure>
           </div>
         </center>
@@ -35,7 +35,7 @@ function AboutMe() {
               Hi there!
               <br />
             </span>
-            <p
+            <p data-aos="fade-up" data-aos-duration={900}
               className="mt-3 is-hidden-touch "
               style={{ fontFamily: "monospace" , fontSize: "x-large" }}
             >

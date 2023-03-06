@@ -264,7 +264,18 @@ html {
 .slidercontainer {
   align-self: center;
   /* width: 30%; */
-  width: 15%;
+  width: 16%;
+  /* height: 20%; */
+  /* position:fixed; */
+  /* top:1;
+	left:1;
+	right: 1; */
+}
+
+.slidercontainermobile {
+  align-self: center;
+  /* width: 30%; */
+  width: 60%;
   /* height: 20%; */
   /* position:fixed; */
   /* top:1;

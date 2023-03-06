@@ -2,6 +2,7 @@ import React from "react";
 import "bulma/css/bulma.min.css";
 import "bulma-social/css/all.min.css";
 import "./index.css";
+  
 
 import MaterialIcon, { colorPalette } from "material-icons-react";
 import { FaTwitter } from "react-icons/fa";
@@ -112,7 +113,7 @@ function HomePage() {
 {/* end of landing page */}
 {/* start of about me section */}
 {/* desktop */}
-      <section id="about" className="is-hidden-touch" data-aos="fade-up" data-aos-duration={900}>
+      <section id="about" className="is-hidden-touch" data-aos="fade-up" data-aos-duration={1200}>
         <div className="columns mt-6 bcol is-hidden-touch">
           <div className="column is-one-fifth">
             <div className="container">
@@ -156,14 +157,14 @@ function HomePage() {
             <div>
               <button className="button is-twitter is-rounded is-outlined mt-6 twitter">
                 <FaTwitter />
-                span @danujaya_s
+                 @danujaya_s
               </button>
             </div>
           </div>
           <div className="column is-one-third">
             <center>
-              <figure className="image mainimage">
-                <img src={le_Me} />
+              <figure className="image mainimage ">
+                <img data-aos="flip-left" data-aos-duration={900}  src={le_Me} />
               </figure>
             </center>
           </div>
@@ -203,7 +204,7 @@ function HomePage() {
         <div className="columns mt-5 ml-3 mr-1 ">
           <div className="column  br-5">
             <p className="btext">
-              An information Systems first year undergraduate with Intermediate
+              An Information Systems first year undergraduate with Intermediate
               level skills of coding and design. Constant learner with the
               ability to adapt to new technologies. Currently on the way
               improving coding skills and learning Angular , React and Python
@@ -222,7 +223,7 @@ function HomePage() {
           <div className="column is-one-third">
             <center>
               <figure className="image mainimage">
-                <img src={le_Me} />
+                <img data-aos="flip-left" data-aos-duration={900} src={le_Me} />
               </figure>
             </center>
           </div>
@@ -232,7 +233,7 @@ function HomePage() {
 {/* end of about me section */}
 {/* start of education section */}
 {/* start desktop */}
-      <section id="education" className="is-hidden-touch" data-aos="fade-up" data-aos-duration={900}>
+      <section id="education" className="is-hidden-touch" data-aos="fade-up" data-aos-duration={1200}>
         <div className="columns mt-6 bcol is-hidden-touch">
           <div className="column is-align-self-center">
             <img src={line_left} alt="Line" style={{ width: "100%" }} />
@@ -353,7 +354,7 @@ function HomePage() {
 {/* end mobile  */}
 {/* end of education section */}
 
-      <section id="about  " className="bkgf bkgif">
+      <section id="about  " className="bkgf bkgif " data-aos="fade-up" data-aos-duration={1200}>
         <div className="columns mt-6 bcol is-hidden-touch">
           <div className="column is-align-self-center">
             <img src={line_left} alt="Line" style={{ width: "100%" }} />
@@ -388,7 +389,7 @@ function HomePage() {
 
         <center>
           <div className="imgfp">
-            <img src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/media/7ed7d5ca074b48b328150e5a231e8d1f.gif" />
+            <img data-aos="flip-left" data-aos-duration={900} src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/media/7ed7d5ca074b48b328150e5a231e8d1f.gif" />
           </div>
         </center>
         <div className="mt-5 bcol pb-6">

@@ -17,6 +17,7 @@ function App() {
       <Route path="/contactMe" component={ContactMe} />
       <Route path="/gallery" component={Gallery} />
     </Router>
+    
   );
 }
 

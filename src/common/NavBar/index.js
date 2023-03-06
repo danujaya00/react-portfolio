@@ -3,17 +3,18 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import "bulma/css/bulma.min.css";
 import "./index.css";
+import logo from "./assets/logo.png"
 
 function NavBar() {
   return (
     <nav className="navbar is-dark is-fixed-top">
       <div className="navbar-brand ml-4">
         <a className="navbar-item" href="./index.html">
-          {/* <img
-            src="../../../public/navbar/logo.png"
+          { <img
+          src={logo}
             width="100%"
             height="100%"
-          /> */}
+          /> }
         </a>
         <a
           role="button"

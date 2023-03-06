@@ -30,7 +30,7 @@
 }
 .btext {
 	color: white;
-	font-size: larger;
+	font-size: large;
 	font-family: "Quantico";
 	line-height: normal;
 }
@@ -229,3 +229,10 @@
 	background-position-x: right;
 	background-position-y: bottom;
 }
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Aboreto');
+
+@import url('https://fonts.googleapis.com/css?family=Quantico');
+@import url('https://fonts.googleapis.com/css?family=Bebas-Neue');
+@import url('Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0');
+@import url('Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic');

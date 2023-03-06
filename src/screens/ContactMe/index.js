@@ -2,15 +2,15 @@ import React from "react";
 import "bulma/css/bulma.min.css";
 import "bulma-social/css/all.min.css";
 import "./index.css";
-
+import { FaEnvelope } from "react-icons/fa";
 
 function AboutMe() {
   return (
     <>
   <section className="hero is-fullheight-with-navbar mt-6">
     <div className="hero-head">
-      <div className="container mt-4 is-hidden-touch">
-        <h1 className="title is-2" style={{ color: "white" }}>
+      <div className="container mt-6  is-hidden-touch">
+        <h1 className="title is-2 mt-6 " style={{ color: "white" }}>
           CONTACT ME
         </h1>
       </div>
@@ -27,7 +27,7 @@ function AboutMe() {
         <div className="content is-normal">
           <p
             className="herotext is-hidden-touch"
-            style={{ fontFamily: "monospace", fontSize: "large" }}
+            style={{ fontFamily: "monospace", fontSize: "x-large" }}
           >
             Thank you for visiting my personal portfolio!
             <br />
@@ -80,7 +80,7 @@ function AboutMe() {
             <center>
               <a className="button is-medium is-discord is-outlined is-rounded mb-6 mt-6 items is-responsive">
                 <span className="icon">
-                  <i className="fa-solid fa-envelope mr-3 ml-3" />
+                  <FaEnvelope />
                 </span>
                 <span>danujayas00@gmail.com</span>
               </a>

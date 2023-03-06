@@ -22,7 +22,7 @@ function Gallery(props) {
       <section className="hero is-fullheight-with-navbar mt-6">
         <div className="hero-head is-hidden-touch">
           <div className="container mt-4">
-            <h1 className="title is-2" style={{ color: "white" }}>
+            <h1 className="title is-2 mt-6" style={{ color: "white" }}>
               TRAVEL GALLERY
             </h1>
           </div>

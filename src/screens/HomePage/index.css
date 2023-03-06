@@ -9,6 +9,7 @@ html {
 
 .navtext {
 	color: white;
+	font-size: medium
 }
 /* landing background */
 .land {
@@ -36,8 +37,9 @@ html {
 	font-family: "Bebas Neue ";
 }
 
+
 .headingtext {
-	font-size: xx-large;
+	font-size: xxx-large;
 	color: rgb(171, 171, 171);
 	font-family: "Aboreto";
 }
@@ -51,7 +53,7 @@ html {
 }
 .btext {
 	color: white;
-	font-size: larger;
+	font-size: large;
 	font-family: "Quantico";
 	line-height: normal;
 }
@@ -272,3 +274,13 @@ html {
 	
 	}
 	
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Aboreto');
+
+@import url('https://fonts.googleapis.com/css?family=Quantico');
+@import url('https://fonts.googleapis.com/css?family=Bebas-Neue');
+@import url('Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0');
+@import url('Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic');
+
+

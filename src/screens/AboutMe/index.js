@@ -2,6 +2,7 @@ import React from "react";
 import "bulma/css/bulma.min.css";
 import "bulma-social/css/all.min.css"
 import "../HomePage/index.css";
+import "./index.css"; 
 
 import me600 from "../../assets/me600.png";
 
@@ -29,13 +30,13 @@ function AboutMe() {
         </center>
         <div className="container">
           <div className="herotext ml-2">
-            <span style={{ fontSize: "large" }}>
+            <span style={{ fontSize: "x-large" }}>
               {" "}
               Hi there!
               <br />
             </span>
             <p
-              className="mt-3 is-hidden-touch"
+              className="mt-3 is-hidden-touch "
               style={{ fontFamily: "monospace" }}
             >
               My name is Danujaya Sandeepa Liyanage and I am an Information
@@ -69,21 +70,6 @@ function AboutMe() {
           </div>
         </div>
       </div>
-      {/* <div className="container is-fluid">
-
-					<div className="box mt-6">
-						<center> <h1 className="title is-2"> Skills and Certifications</h1></center>
-						<div className="columns">
-						  <div className="column">
-							<h1 className="title is-3">pro</h1>
-						  </div>
-						  <div className="column">
-							Second column
-						  </div>
-						</div>
-					</div>
-
-				</div> */}
     </section>
     
   );

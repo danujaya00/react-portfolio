@@ -13,7 +13,7 @@ import le_Me from "../../assets/le_Me.png";
 function HomePage() {
   return (
     <>
-      <section className="hero is-fullheight-with-navbar is-hidden-mobile land mt-6">
+      <section className="hero is-fullheight-with-navbar is-hidden-touch land mt-6">
         <div className="columns mr-6 ml-6 pl-5">
           <div className="column">
             <div className="textind mb-0 mt-0">
@@ -62,10 +62,10 @@ function HomePage() {
         </div>
       </section>
       
-      {/* landing page for mobile devices */}
+{/* landing page for mobile devices */}
 
-      {/* <section className="hero is-fullheight-with-navbar is-hidden-mobile land mt-6">
-        <div className="columns mr-6 ml-6 pl-5">
+      <section className="hero is-fullheight-with-navbar is-hidden-desktop land mt-6">
+        <div className="columns mr-1 ml-1   ">
           <div className="column">
             <div className="textind mb-0 mt-0">
               <br />
@@ -73,10 +73,7 @@ function HomePage() {
               <br />
               <br />
               <br />
-              <br />
-              <br />
-              <br />
-              <span className="is-hidden-mobile" style={{ fontSize: "4em" }}>
+              <span  style={{ fontSize: "2em" }}>
                 HELLO
               </span>
               <br />
@@ -102,7 +99,7 @@ function HomePage() {
         </div>
         <div className="hero-foot">
           <center>
-            <a href="#about">
+            <a href="#aboutm">
               <MaterialIcon
                 icon="keyboard_arrow_down"
                 color="#ffffff"
@@ -111,9 +108,11 @@ function HomePage() {
             </a>
           </center>
         </div>
-      </section> */}
-
-      <section id="about" data-aos="fade-up" data-aos-duration={900}>
+      </section>
+{/* end of landing page */}
+{/* start of about me section */}
+{/* desktop */}
+      <section id="about" className="is-hidden-touch" data-aos="fade-up" data-aos-duration={900}>
         <div className="columns mt-6 bcol is-hidden-touch">
           <div className="column is-one-fifth">
             <div className="container">
@@ -170,7 +169,70 @@ function HomePage() {
           </div>
         </div>
       </section>
-      <section id="education" data-aos="fade-up" data-aos-duration={900}>
+{/* end desktop */}
+{/* start mobile */}
+      <section id="aboutm"  className="is-hidden-desktop" data-aos="fade-up" data-aos-duration={900}>
+        <div className="columns mt-6  is-hidden-touch">
+          <div className="column is-one-fifth">
+            <div className="container">
+              <h1 className="headingtext">ABOUT ME</h1>
+            </div>
+          </div>
+          <div className="column is-align-self-center">
+            <img src={line1} alt="Line" style={{ width: "100%" }} />
+          </div>
+        </div>
+        <div className="columns mt-6 ml-1 mr-1 is-hidden-desktop">
+          <div className="column is-align-self-center">
+            <img
+              className="image"
+              src={line_left}
+              alt="Line"
+              style={{ width: "100%" }}
+            />
+          </div>
+          <div className="column is-one-quarter has-text-centered">
+            <div className="container">
+              <h1 className="headingtext">ABOUT ME</h1>
+            </div>
+          </div>
+          <div className="column is-align-self-center">
+            <img src={line1} alt="Line" style={{ width: "100%" }} />
+          </div>
+        </div>
+        <div className="columns mt-5 ml-3 mr-1 ">
+          <div className="column  br-5">
+            <p className="btext">
+              An information Systems first year undergraduate with Intermediate
+              level skills of coding and design. Constant learner with the
+              ability to adapt to new technologies. Currently on the way
+              improving coding skills and learning Angular , React and Python
+              for Machine Learning.
+            </p>
+            <p className="btext mt-6 stext">
+              A Hiker | Car Enthusiast | Traveler | Travel Photographer
+            </p>
+            <div>
+              <button className="button is-twitter is-rounded is-outlined mt-6 twitter">
+                <FaTwitter />
+                span @danujaya_s
+              </button>
+            </div>
+          </div>
+          <div className="column is-one-third">
+            <center>
+              <figure className="image mainimage">
+                <img src={le_Me} />
+              </figure>
+            </center>
+          </div>
+        </div>
+      </section>
+{/* end mobile */}
+{/* end of about me section */}
+{/* start of education section */}
+{/* start desktop */}
+      <section id="education" className="is-hidden-touch" data-aos="fade-up" data-aos-duration={900}>
         <div className="columns mt-6 bcol is-hidden-touch">
           <div className="column is-align-self-center">
             <img src={line_left} alt="Line" style={{ width: "100%" }} />
@@ -228,8 +290,71 @@ function HomePage() {
           </ul>
         </div>
       </section>
+{/* end desktop */}
+{/* start mobile */}
+<section id="education" data-aos="fade-up" className="is-hidden-desktop" data-aos-duration={900}>
+        <div className="columns mt-6 bcol is-hidden-touch">
+          <div className="column is-align-self-center">
+            <img src={line_left} alt="Line" style={{ width: "100%" }} />
+          </div>
+          <div className="column is-one-fifth">
+            <div className="container">
+              <h1 className="headingtext has-text-right">EDUCATION</h1>
+            </div>
+          </div>
+        </div>
+        <div className="columns mt-6 ml-1 mr-1 is-hidden-desktop">
+          <div className="column is-align-self-center">
+            <img src={line_left} alt="Line" style={{ width: "100%" }} />
+          </div>
+          <div className="column is-one-quarter has-text-centered">
+            <div className="container">
+              <h1 className="headingtext">EDUCATION</h1>
+            </div>
+          </div>
+          <div className="column is-align-self-center">
+            <img src={line1} alt="Line" style={{ width: "100%" }} />
+          </div>
+        </div>
+        <div className="container btext ml-5 mr-5">
+          <ul>
+            <li className="mb-5">
+              <dl>
+                <dt>Bachelor of Science in Information Systems.</dt>
+                <dd>
+                  <span style={{ fontSize: "medium", opacity: "0.75" }}>
+                    University of Colombo School of Computing.
+                  </span>
+                  <br />
+                  <span style={{ fontSize: "small", opacity: "0.55" }}>
+                    First year undergraduate, <br />
+                    Present.
+                  </span>
+                </dd>
+              </dl>
+            </li>
+            <li className="mb-5">
+              <dl>
+                <dt>General Certificate of Education Advanced Level.</dt>
+                <dd>
+                  <span style={{ fontSize: "medium", opacity: "0.75" }}>
+                    St. Anne’s College - Kurunegala..
+                  </span>
+                  <br />
+                  <span style={{ fontSize: "small", opacity: "0.55" }}>
+                    2017-2019. <br />
+                  </span>
+                </dd>
+              </dl>
+            </li>
+          </ul>
+        </div>
+      </section>
+{/* end mobile  */}
+{/* end of education section */}
+
       <section id="about  " className="bkgf bkgif">
-        <div className="columns mt-6 bcol">
+        <div className="columns mt-6 bcol is-hidden-touch">
           <div className="column is-align-self-center">
             <img src={line_left} alt="Line" style={{ width: "100%" }} />
           </div>
@@ -243,6 +368,24 @@ function HomePage() {
             <img src={line1} alt="Line" style={{ width: "100%" }} />
           </div>
         </div>
+        
+        {/* mobile */}
+        <div className="columns mt-6 ml-1  mr-1 is-hidden-desktop">
+          <div className="column is-align-self-center">
+            <img src={line_left} alt="Line" style={{ width: "100%" }} />
+          </div>
+          <div className="column is-one-quarter has-text-centered">
+            <div className="container">
+              <h1 className="headingtext">CONTACT ME</h1>
+            </div>
+          </div>
+
+          <div className="column is-align-self-center">
+            <img src={line1} alt="Line" style={{ width: "100%" }} />
+          </div>
+        </div>
+        {/* mobile end */}
+
         <center>
           <div className="imgfp">
             <img src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/media/7ed7d5ca074b48b328150e5a231e8d1f.gif" />

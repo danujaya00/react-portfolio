@@ -283,6 +283,29 @@ html {
 	right: 1; */
 }
 
+.slidercontainerd {
+  align-self: center;
+  /* width: 30%; */
+  width: 30%;
+  /* height: 20%; */
+  /* position:fixed; */
+  /* top:1;
+	left:1;
+	right: 1; */
+}
+
+.slidercontainermobiled {
+  align-self: center;
+  /* width: 30%; */
+  width: 60%;
+  /* height: 20%; */
+  /* position:fixed; */
+  /* top:1;
+	left:1;
+	right: 1; */
+}
+
+
 /* fonts */
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 @import url("https://fonts.googleapis.com/css?family=Aboreto");

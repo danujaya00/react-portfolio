@@ -10,6 +10,7 @@ import HomePage from "./screens/HomePage";
 import AboutMe from "./screens/AboutMe";
 import ContactMe from "./screens/ContactMe";
 import Gallery from "./screens/Gallery";
+import Design from "./screens/DesignPortfolio";
 
 function App() {
   useEffect(() => {
@@ -22,6 +23,7 @@ function App() {
       <Route path="/aboutMe" component={AboutMe} />
       <Route path="/contactMe" component={ContactMe} />
       <Route path="/gallery" component={Gallery} />
+      <Route path="/designPortfolio" component={Design} />
     </Router>
     
   );

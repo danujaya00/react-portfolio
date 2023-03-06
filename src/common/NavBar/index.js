@@ -5,10 +5,6 @@ import "bulma/css/bulma.min.css";
 import "./index.css";
 import logo from "./assets/logo.png"
 
-import HomePage from "../../screens/HomePage";
-import AboutMe from "../../screens/AboutMe";
-import ContactMe from "../../screens/ContactMe";
-import Gallery from "../../screens/Gallery";
 
 function NavBar() {
   return (
@@ -50,6 +46,9 @@ function NavBar() {
           </a>
           <a className="navbar-item navtext" href="/Gallery">
             Gallery
+          </a>
+          <a className="navbar-item navtext" href="/designportfolio">
+            Design Portfolio
           </a>
           <a className="navbar-item navtext">
             Download CV<FontAwesomeIcon icon="fa-regular fa-arrow-down-to-line" />

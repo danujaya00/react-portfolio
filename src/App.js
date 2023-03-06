@@ -6,6 +6,7 @@ import NavBar from "./common/NavBar";
 import HomePage from "./screens/HomePage";
 import AboutMe from "./screens/AboutMe";
 import ContactMe from "./screens/ContactMe";
+import Gallery from "./screens/Gallery";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Route path="/home" component={HomePage}/>
       <Route path="/aboutMe" component={AboutMe} />
       <Route path="/contactMe" component={ContactMe} />
+      <Route path="/gallery" component={Gallery} />
     </Router>
   );
 }

@@ -259,3 +259,16 @@ html {
 	background-position-x: right;
 	background-position-y: bottom;
 } */
+
+.slidercontainer {
+	align-self: center;
+	/* width: 30%; */
+	width: 15%;
+	/* height: 20%; */
+	/* position:fixed; */
+	/* top:1;
+	left:1;
+	right: 1; */
+	
+	}
+	
